@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+
+  body {
+    background-color: #210303;
+
+
+    .index-header {
+      height: 50px;
+
+      position: relative;
+
+      .nav-logo {
+
+        width: 40px;
+        height: 70px;
+        margin: auto;
+
+
+
+        .nav-logo img {
+          width: 80px;
+          height: 40px;
+          vertical-align: middle;
+
+          #menu_control {
+
+            position: absolute;
+            z-index: -10;
+            opacity: 0;
+
+            .menu_btn {
+
+
+              border: 0.4px solid#fff;
+              width: 60px;
+              height: 60px;
+              position: absolute;
+              display: block;
+              cursor: pointer;
+              background-color: rgba(229, 186, 186, 0.151);
+              border-radius: 100px;
+              border: 1px solid inherit;
+
+              top: 5px;
+              right: 10px;
+
+              .menu-btn-wrap {
+                /* border: 1px solid#fff; */
+                display: flex;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                .menu-btn-style1 {
+
+                  background-color: #fff;
+                  width: 1px;
+                  height: 40px;
+                  margin: 3px;
+                  mix-blend-mode: screen;
+
+                  .menu-btn-style2 {
+                    background-color: #fff;
+
+                    width: 1px;
+                    height: 30px;
+                    margin: 3px;
+
+
+                    .menu-btn-style3 {
+                      background-color: #fff;
+
+                      width: 1px;
+                      height: 20px;
+                      margin: 3px;
+
+
+                      .menu-btn-style1:hover,
+                      .menu-btn-style2:hover,
+                      .menu-btn-style3:hover {
+                        animation: 0.5s side_slide02 cubic-bezier(0.01, 0.87, 0.21, 0.99) nav {
+                          width: 80%;
+                          height: calc(100vh- 50px);
+                          background-color: #fcc;
+                          position: absolute;
+                          top: 50px;
+                          left: -100%;
+                          transition: .5s;
+
+
+                          nav a {
+                            display: block;
+                            text-decoration: none;
+                            color: #bf4949;
+                            padding: 10px 20px;
+                            border-bottom: 1px solid#349e87;
+
+                            #menu_control:checked~.index-header nav {
+                              left: 0;
+
+
+
+
+                            }
+
+                          }
+
+                        }
+
+
+                      }
+
+
+                    }
+
+
+
+
+
+                  }
+                }
+
+
+              }
+
+            }
+
+
+          }
+
+
+        }
+
+        @keyframes blink {
+          0% {
+            opacity: 1;
+          }
+
+          50% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+
+
+
+
+      }
+
+
+    }
+
+
+  }
+
+
+
+
+
+
+}

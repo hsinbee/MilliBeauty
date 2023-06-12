@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="favorite-items">pi</div>
+
+<script>
+  window.onload = function() {
+    const favoriteItems = JSON.parse(localStorage.getItem('favoriteItems'));
+
+    if (favoriteItems && favoriteItems.length > 0) {
+      const favoriteItemsContainer = document.getElementById('favorite-items');
+      favoriteItems.forEach(item => {
+        const favoriteItemElement = document.createElement('div');
+        favoriteItemElement.textContent = item;
+        favoriteItemsContainer.appendChild(favoriteItemElement);
+      });
+    } else {
+      console.log('没有收藏的内容');
+    }
+  }
+</script>
+
+  
+</body>
+</html>
