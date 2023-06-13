@@ -15,8 +15,6 @@
     });
   });
 
-  
-
 
 
   const copyButton = document.getElementById('copyButton');
@@ -27,5 +25,3 @@
     document.execCommand('copy');
     ;
   });
-
-
