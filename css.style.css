@@ -16,7 +16,6 @@
 
   --fifth-color: #868383cd;
 
-
   --text-color: #D9D9D9;
 
   --main-font: 'Playfair', serif;
@@ -29,10 +28,6 @@
 
   --text-font: 'Noto Sans HK', sans-serif;
 
-
-
-
-
   font-family: 'Bodoni Moda', serif;
   font-family: 'Lora', serif;
   font-family: 'Noto Sans HK', sans-serif;
@@ -40,11 +35,7 @@
   font-family: 'Parisienne', cursive;
   font-family: 'Playfair', serif;
 
-
-
 }
-
-
 
 
 
@@ -198,8 +189,8 @@
   .nav-logo img {
     /* border: 2px solid#837eec; */
 
-    width: 130px;
-    height: 40px;
+    width: 230px;
+    height: 80px;
 
   }
 
