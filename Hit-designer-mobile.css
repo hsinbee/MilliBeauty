@@ -49,8 +49,10 @@
 
 
 * {
+
   margin: 0;
   padding: 0;
+
 
 }
 
@@ -69,10 +71,12 @@
 
 
   .index-wrap {
+
     background: url('./coding-pic/Hit-store/store-bg.png');
 
     background-size: cover;
-    position: relative;
+
+
 
   }
   .index-wrap-bg{
@@ -252,6 +256,7 @@
 
   swiper-container {
 
+
     width: 80%;
     border-radius: 20px;
 
@@ -307,6 +312,7 @@
   .mySwiper img {
     width: 80%;
     height: 70%;
+
     border-radius: 10px;
 
 

@@ -149,7 +149,8 @@
 
   .menu-btn-wrap {
     /* border: 1px solid#df2222; */
-    margin: 0px 0px 0px 20px;
+    margin: 30px 0px 0px 20px;
+
     display: flex;
     justify-content: center;
 
@@ -166,11 +167,11 @@
   }
 
   .menu-btn-style1 {
-    height: 50px;
+    height: 40px;
   }
 
   .menu-btn-style2 {
-    height: 40px;
+    height: 35px;
   }
 
   .menu-btn-style3 {
@@ -840,8 +841,7 @@
 
   .menu-btn-wrap {
     /* border: 1px solid#df2222; */
-
-    margin: 0px 0px 0px 20px;
+    margin: 40px 0px 0px 20px;
     display: flex;
 
   }
