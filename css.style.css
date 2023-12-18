@@ -1374,6 +1374,7 @@
   .index-nav-bg {
     width: 100%;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
 
   }
@@ -1606,6 +1607,7 @@
     pointer-events: none;
     z-index: -3;
     backdrop-filter: blur(5px);
+    
 
   }
 
